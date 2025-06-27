@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (width > 600px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+section {
+  padding: 0 1rem;
+}
+
+
